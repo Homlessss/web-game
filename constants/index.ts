@@ -1,0 +1,20 @@
+// NAVIGATION
+export const NAV_LINKS = [
+    {href: '/', key: 'puzzle', label: 'Câu đố'},
+    {href: '/', key: 'tactics', label: 'Chiến thuật'},
+    {href: '/', key: 'tabular', label: 'Dạng bảng'},
+    {href: '/', key: 'trivia', label: 'Đố vui'},
+    {href: '/', key: 'racing', label: 'Đua xe'},
+    {href: '/', key: 'education', label: 'Giáo dục'},
+    {href: '/', key: 'action', label: 'Hành động'},
+    {href: '/', key: 'simulation', label: 'Mô phỏng'},
+    {href: '/', key: 'music', label: 'Nhạc'},
+    {href: '/', key: 'role_playing', label: 'Nhập vai'},
+    {href: '/', key: 'adventure', label: 'Phiêu lưu'},
+    {href: '/', key: 'casino', label: 'Sòng bạc'},
+    {href: '/', key: 'cards', label: 'Thẻ bài'},
+    {href: '/', key: 'sport', label: 'Thể thao'},
+    {href: '/', key: 'common', label: 'Thông thường'},
+    {href: '/', key: 'find_crosswords', label: 'Tìm ô chữ'},
+    {href: '/', key: 'video_game', label: 'Trò chơi điện tử'},
+]
