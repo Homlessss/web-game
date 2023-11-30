@@ -8,7 +8,7 @@ const Gamelist = () => {
   return (
     <Link href={"/playGame"} className="grid game-list place-items-center">
       <Image
-        src={"/public/Thumbnails/Tomb-runner.png"}
+        src={"/"}
         width={100}
         height={100}
         alt="Thumbnail"
