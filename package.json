@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": "20.9.0"
-  },
   "name": "web-game",
   "version": "0.1.0",
   "private": true,
