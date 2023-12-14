@@ -1,8 +1,5 @@
 import Link from "next/link";
 import { CiSearch } from "react-icons/ci";
-import { HiOutlineLightBulb } from "react-icons/hi";
-import { FaRegCirclePlay } from "react-icons/fa6";
-import { IoNotificationsCircleOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
@@ -51,21 +48,6 @@ const Header = () => {
             </button>
           </div>
         </form>
-
-        <div className="toggle-box flex space-x-10">
-          <Link href="/" className="flex items-center">
-            <HiOutlineLightBulb className="text-4xl me-1" />
-            <span className="text-xl">Hướng dẫn</span>
-          </Link>
-          <Link href="/" className="flex items-center">
-            <FaRegCirclePlay className="text-2xl me-1" />
-            <span className="text-xl">Video</span>
-          </Link>
-          <Link href="/" className="flex items-center">
-            <IoNotificationsCircleOutline className="text-3xl me-1" />
-            <span className="text-xl">Thông báo</span>
-          </Link>
-        </div>
       </nav>
     </>
   );

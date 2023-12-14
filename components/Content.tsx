@@ -7,8 +7,6 @@ const Content = () => {
       <Gamelist
         src="http://localhost:3000//Tomb-runner.png"
         name="Tomb run"
-        numOfPlayers={4}
-        rating={4.5}
       />
     </div>
   );
