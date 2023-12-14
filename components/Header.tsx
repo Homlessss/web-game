@@ -3,7 +3,6 @@ import { CiSearch } from "react-icons/ci";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaRegCirclePlay } from "react-icons/fa6";
 import { IoNotificationsCircleOutline } from "react-icons/io5";
-import AudioPlayer from "./AudioPlayer";
 
 const Header = () => {
   return (
@@ -68,7 +67,6 @@ const Header = () => {
           </Link>
         </div>
       </nav>
-      <AudioPlayer />
     </>
   );
 };
