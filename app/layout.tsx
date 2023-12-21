@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+// import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
@@ -24,10 +24,10 @@ export default function RootLayout({
           crossOrigin="anonymous"
         ></script>
       </head>
-      <body>
+      <body className="container-fluid">
         <Header />
-        <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
+        {/* <Navbar /> */}
+        <main className="relative overflow-hidden mt-8">{children}</main>
         <Footer />
       </body>
     </html>
