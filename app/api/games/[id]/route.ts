@@ -15,4 +15,4 @@ export async function GET(req: Request, { params }: any) {
   await connectDB();
   const game = await Game.findOne({ _id: id });
   return NextResponse.json({ game }, { status: 200 });
-}
+}     
